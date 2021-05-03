@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <ContentPage.Content>
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <StackLayout x:Name="stkLayout">
+            <StackLayout x:Name="stkLayout" Padding="0,0,0,5">
                 <Image
                     HeightRequest="80"
                     Source="saveearth.png"
@@ -36,11 +36,20 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                 </Grid>
-                <Button
-                    x:Name="btn"
-                    BackgroundColor="BlueViolet"
-                    Text="Capture Photo"
-                    TextColor="Black" />
+
+
+               
+
+                <ImageButton x:Name="btn" Source="icon_cam.png"
+                    HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+                    <ImageButton.WidthRequest>
+              <OnIdiom x:TypeArguments="x:Double" Phone="70" Tablet="80" />
+            </ImageButton.WidthRequest>
+         
+                </ImageButton>
+                
+                
+                <Label Padding="0" Text="Capture" HorizontalOptions="Center" TextColor="Black"></Label>
             </StackLayout>
 
         </ScrollView>

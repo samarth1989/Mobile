@@ -28,16 +28,16 @@ namespace SaveEarth.Views
         {
             InitializeComponent();
             Device.BeginInvokeOnMainThread(async () => await InitialisePermissions());
-            var addPhotoButton = new Button()
+            var addPhotoButton = new ImageButton()
             {
-                Text = "Capture Photo",
+                //Text = "Capture Photo",
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
-                BorderColor = Color.FromHex("#F0F0F0"),
+                //BorderColor = Color.FromHex("#F0F0F0"),
                 BorderWidth = 1,
-                BackgroundColor = Color.FromHex("#F9F9F9"),
-                TextColor = Color.Black,
-                FontAttributes = FontAttributes.Bold,
+                //BackgroundColor = Color.FromHex("#F9F9F9"),
+                //TextColor = Color.Black,
+                //FontAttributes = FontAttributes.Bold,
                 IsVisible=false
             };
           
