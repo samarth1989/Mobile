@@ -1,4 +1,5 @@
 ﻿using System;
+using SaveEarth.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,8 +10,7 @@ namespace SaveEarth
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new CapturePage();
         }
 
         protected override void OnStart()

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ed2a846-af56-4d2a-b3a7-65aeb1825182" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/background" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/earthday.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/icon_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/icon_feed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/icon_saveearth.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/saveearth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/splashImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/splashearth.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/drawable/xamarin_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/layout/Tabbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/layout/Toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SplashActivity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveEarth/Views/CapturePage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaveEarth/Views/CapturePage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaveEarth.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SaveEarth.Android.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaveEarth/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaveEarth/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaveEarth/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SaveEarth/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaveEarth/SaveEarth.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SaveEarth/SaveEarth.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1s27OacXFjun9Dh46XiAXGwEFcT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed2a846-af56-4d2a-b3a7-65aeb1825182" name="Default Changelist" comment="" />
+      <created>1620058799448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620058799448</updated>
+    </task>
+    <servers />
+  </component>
+</project>

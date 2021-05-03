@@ -12,7 +12,7 @@ using PermissionStatus = Plugin.Permissions.Abstractions.PermissionStatus;
 using Xamarin.Essentials;
 using System.Diagnostics;
 
-namespace SAPP.Views
+namespace SaveEarth.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CapturePage : ContentPage
