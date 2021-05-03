@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SAPP.Views.CapturePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="stkLayout">
+                <Image
+                    HeightRequest="80"
+                    Source="saveearth.png"
+                    WidthRequest="80" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    Text="Save Earth"
+                    TextColor="Black"
+                    VerticalOptions="Center" />
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Capture and Share photos to save your planet Earth"
+                    TextColor="DeepSkyBlue"
+                    VerticalOptions="Center" />
+                <Grid
+                    x:Name="ImageGridContainer"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Button
+                    x:Name="btn"
+                    BackgroundColor="BlueViolet"
+                    Text="Capture Photo"
+                    TextColor="Black" />
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
