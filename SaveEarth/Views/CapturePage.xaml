@@ -37,7 +37,6 @@
                     </Grid.ColumnDefinitions>
                 </Grid>
 
-
                
 
                 <ImageButton x:Name="btn" Source="icon_cam.png"
@@ -50,6 +49,17 @@
                 
                 
                 <Label Padding="0" Text="Capture" HorizontalOptions="Center" TextColor="Black"></Label>
+
+
+             
+                <ListView x:Name="lstPersons">  
+                    <ListView.ItemTemplate>  
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" Detail="{Binding PersonID}"></TextCell>  
+                        </DataTemplate>  
+                    </ListView.ItemTemplate>  
+                </ListView>  
+
             </StackLayout>
 
         </ScrollView>
